@@ -1,3 +1,26 @@
+# Kurze Projektbeschreibung:
+Wer bei diesem heißen Wetter Lust auf coole Cocktails oder extravagante Drinks verspürt, für den haben wir Drinks&Chill ins Leben gerufen. Dort könnt ihr nach einfacher Anleitung eure eigenen Drinks selbst mixen
+und auf der nächsten Party seid ihr euer eigener Barista - Cheers!🥂🍻
+
+# Technologien, die genutzt werden sollen:
+HTML/CSS, Git/Github, Auswahl: JS oder ReactJS
+Das ist zu beachten:
+Organisiert euch in der Gruppe gut, wie ihr eure Aufgaben verteilen wollt, welche Kommunikationswege ihr nutzen wollt und achtet auf das Zeitmanagement.
+
+Tipps falls mit React und API gearbeitet wird:
+Styles für die boxen können mit Modulus gemacht werden.
+{data.map((e, i) => <div className={`
+            style${Math.floor((i % 6) + 1)}
+            ${i % 2 == 0 ? 'left' : 'right'}
+            `} 
+            key={e.id}
+            >
+            {e.first_name}
+            </div>)}
+So bekommt jedes Element 2 Klassen. style1 bis style6 und left oder right. 
+So kann man mit CSS style1 bis 6 die Hintergrundfarben geben und mit left oder right die flex-direction ändern.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
