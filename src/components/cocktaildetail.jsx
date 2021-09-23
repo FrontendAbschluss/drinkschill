@@ -1,5 +1,6 @@
 import React from 'react';
 import './cocktaildetail.css';
+import { Link } from "react-router-dom";
 
 const CocktailDetail = ({ cocktail }) => {
     const {
@@ -20,6 +21,11 @@ const CocktailDetail = ({ cocktail }) => {
         {ingredients.map(ingredient => (
             <li key={ingredient.id}></li>
         ))};
-    )};
+    );
 
-    export default cocktailDetail;
+            <Link to={`Home/${id}`} className="Home">
+                Home
+            </Link>
+        </div>
+    
+    );
