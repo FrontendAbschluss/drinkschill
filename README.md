@@ -20,10 +20,28 @@ Styles für die boxen können mit Modulus gemacht werden.
 So bekommt jedes Element 2 Klassen. style1 bis style6 und left oder right. 
 So kann man mit CSS style1 bis 6 die Hintergrundfarben geben und mit left oder right die flex-direction ändern.
 
+# Phase 1
+Die Grundvoraussetzung ist eine statische Website zu programmieren. Hier erhält der Nutzer Informationen zum Rezept mit Titel, Beschreibung und Bild.
+Dazu erstellt ihr selbst eure eigenen Daten. Diese speichert ihr euch in einen Array aus 10 Objekten als data.js.
+Die Website ist responsiv für Mobile & Desktop.
+
+# Phase 2
+In dieser Phase bezieht ihr nun alle nötigen Daten aus der API.
+Lese euch die Dokumentation zur API genau durch damit ihr die
+gewünschten endpoints als Ergebnis herausbekommt.
+Nutze die Framer Motion Library um eure Nutzer durch eine bessere User Experience(UX) zu navigieren.
+
+# Phase 3
+Der Benutzer kann nun über eine
+Suchfunktion nach verschiedenen
+Kategorien filtern.
+
+# Die wichtigsten Ressourcen
 Link Design: https://www.figma.com/file/WtLI53nXsGkBHpfJPyRUuj/Cocktails-Copy?node-id=10%3A0
 Link Prototype: https://www.figma.com/proto/WtLI53nXsGkBHpfJPyRUuj/Cocktails-Copy?node-id=3%3A2&scaling=min-zoom
 Link API: https://www.thecocktaildb.com/api.php
 Framer Motion
+
 
 
 # Getting Started with Create React App
