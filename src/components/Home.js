@@ -1,21 +1,21 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import Category from './Category';
+import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
+import Category from './Category'
 
 const Home = () => {
-    return (
-        <div>
-            <Category ingredient={'gin'}>Gin</Category>
-            <Category ingredient={'wodka'}>Wodka</Category>
-            <Category ingredient={'rum'}>Rum</Category>
-            <Category ingredient={'scotch'}>Scotch</Category>
-            <Category ingredient={'alcoholfree'}>Alkoholfrei</Category>
-            <Category ingredient={'random'}>Zufall</Category>
-        </div>
-    );
+  return (
+    <div>
+      <Category ingredient={'gin'}>Gin</Category>
+      <Category ingredient={'wodka'}>Wodka</Category>
+      <Category ingredient={'rum'}>Rum</Category>
+      <Category ingredient={'scotch'}>Scotch</Category>
+      <Category ingredient={'alcoholfree'}>Alkoholfrei</Category>
+      <Category ingredient={'random'}>Zufall</Category>
+    </div>
+  )
 }
 
-export default Home;
+export default Home
 
 // class CocktailList extends Component {
 
@@ -44,3 +44,4 @@ export default Home;
 // }
 
 // export default CocktailList;
+//test
