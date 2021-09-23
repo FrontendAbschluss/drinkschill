@@ -1,13 +1,21 @@
 import React from 'react';
 import './item.css';
 
+import { useParams, useHistory } from 'react-router-dom';
+
 const Item = ({ cocktail }) => {
     const {
       description,
       ingredients,
       name,
       image,
-    } = cocktail;
+
+      function HandleClick() {
+        history.goBack();  
+
+
+
+    } } = cocktail;
 
 return (
     <div className="item">
@@ -22,4 +30,7 @@ return (
 
         {ingredients.map(ingredient => (
             <li key={ingredient.id}></li>
-)
+        ))};
+
+        <button type="button" onClick={HandleClick}></button>
+        <Zurueck />
