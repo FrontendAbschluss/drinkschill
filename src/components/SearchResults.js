@@ -1,6 +1,7 @@
 const SearchResults = () => {
     return (
         <div>
+            <h1>SearchResults</h1>
             API-Call -> map -> Drink Components
         </div>
     );
