@@ -1,16 +1,12 @@
-import React from 'react';
-import './CocktailDetail.css';
-import { Link } from "react-router-dom";
+import React from 'react'
+import './CocktailDetail.css'
+import { Link } from 'react-router-dom'
 
 const CocktailDetail = () => {
-    return (
-        <div>
-            Cocktail details
-        </div>
-    );
+  return <div>Cocktail details</div>
 }
 
-export default CocktailDetail;
+export default CocktailDetail
 
 // const CocktailDetail = ({ cocktail }) => {
 //     const {
