@@ -44,8 +44,4 @@ export default Home
 // }
 
 // export default CocktailList;
-<<<<<<< HEAD
-//test
-=======
-// enrique github notizen
->>>>>>> ca107e5b0c8e9c5d6a99bd55cc5d1414d64b9a55
+// test
