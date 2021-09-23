@@ -16,6 +16,7 @@ function App() {
       <div>
         <Switch>
           <Route path="/cocktaildetail" exact component={cocktaildetail} />
+          <Route path="/cocktaillist" exact component={cocktaillist} />
           <Route path="/add-drink" component={AddDrink} />
         </Switch>
       </div>
