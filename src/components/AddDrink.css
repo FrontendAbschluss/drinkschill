@@ -1,0 +1,34 @@
+div {
+    padding-left: 1vw;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 30vw;
+    justify-content: start;
+    padding-top: 5vh;
+}
+input, textarea {
+    margin-bottom: 1.5vh;
+    padding: 10px;
+}
+input[type='submit'] {
+    margin-top: 1.5vh;
+}
+
+/* Image styling */
+img {
+    position: absolute;
+    width: 23vw;
+    right: 28vw;
+    top: 58vh;
+}
+img:first-of-type {
+    top: 20vh;
+}
+img:last-of-type {
+    right: 0;
+    top: 10vh;
+}
