@@ -7,7 +7,7 @@ componentDidMount() {
       .then(data => this.setState({ data }));
     fetch("https://www.thecocktaildb.com/api/json/v1/1/list.php?c=list")
       .then(res => res.json())
-      .then(data => this.setState({ categories: data.drinks }));
+      .then(data => this.setState({ categories: data.cocktails }));
   }
   handleChange = e => {
     this.setState({ [e.target.name]: e.target.value });
