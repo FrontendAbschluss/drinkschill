@@ -6,7 +6,7 @@ import logo from '../img/logo.svg'
 class Logo extends React.Component {
     render() {
         return <div className="logo">
-            <div><img style={{ width: "70%" }} src="../img/logo.svg" alt="Cocktail" /></div>
+            <div><img style={{ width: "70%" }} src={"logo"} alt="Cocktail" /></div>
         </div>;
     }
 }
