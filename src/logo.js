@@ -2,11 +2,11 @@ import React from 'react';
 import logo from '../img/logo.svg'
 
 
- // Logo
+// Logo
 class Logo extends React.Component {
     render() {
         return <div className="logo">
-            <div><img style={{ width: "70%" }} src={"logo"} alt="Cocktail" /></div>
+            <div><img style={{ width: "70%" }} src={logo} alt="Cocktail" /></div>
         </div>;
     }
 }
