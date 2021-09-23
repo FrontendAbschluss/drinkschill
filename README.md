@@ -20,6 +20,11 @@ Styles für die boxen können mit Modulus gemacht werden.
 So bekommt jedes Element 2 Klassen. style1 bis style6 und left oder right. 
 So kann man mit CSS style1 bis 6 die Hintergrundfarben geben und mit left oder right die flex-direction ändern.
 
+Link Design: https://www.figma.com/file/WtLI53nXsGkBHpfJPyRUuj/Cocktails-Copy?node-id=10%3A0
+Link Prototype: https://www.figma.com/proto/WtLI53nXsGkBHpfJPyRUuj/Cocktails-Copy?node-id=3%3A2&scaling=min-zoom
+Link API: https://www.thecocktaildb.com/api.php
+Framer Motion
+
 
 # Getting Started with Create React App
 
