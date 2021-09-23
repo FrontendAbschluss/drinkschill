@@ -2,11 +2,23 @@ import logo from './logo.svg';
 import './App.css';
 import AddDrink from './components/AddDrink';
 
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
+
+import cocktaildetail from "./components/cocktaillist";
+
 function App() {
   return (
-    <div className="App">
-      <AddDrink />
-    </div>
+    <Router>
+      <div>
+        <Switch>
+          <Route path="/cocktaildetail" exact component={cocktaildetail} />
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
