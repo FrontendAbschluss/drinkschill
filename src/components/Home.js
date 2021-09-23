@@ -44,4 +44,3 @@ export default Home
 // }
 
 // export default CocktailList;
-// test
