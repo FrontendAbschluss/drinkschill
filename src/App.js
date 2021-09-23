@@ -7,7 +7,8 @@ import {
   Route,
 } from "react-router-dom";
 
-import cocktaildetail from "./components/cocktaillist";
+import cocktaildetail from "./components/cocktaildetail";
+import cocktaillist from "./components/cocktaillist";
 import AddDrink from "./components/AddDrink";
 
 function App() {
