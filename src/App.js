@@ -1,5 +1,5 @@
 import './App.css';
-import Logo from "logo.js";
+import logo from "logo.js";
 
 import {
   BrowserRouter as Router,
