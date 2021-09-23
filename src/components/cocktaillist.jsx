@@ -21,7 +21,7 @@ class CocktailList extends Component {
                     description={this.state.propsData[0].description}
                     ingredients={this.state.propsData[0].ingredients}
                 />
-                <Link to="/"><Logo /></Link>
+
             </section>
         );
     }
