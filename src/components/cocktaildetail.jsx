@@ -30,6 +30,5 @@ const CocktailDetail = ({ cocktail }) => {
         </div>
     
     );
-};
-
+ 
 export default CocktailDetail;

@@ -1,5 +1,5 @@
 import './App.css';
-import AddDrink from "logo.js";
+import Logo from "logo.js";
 
 import {
   BrowserRouter as Router,
