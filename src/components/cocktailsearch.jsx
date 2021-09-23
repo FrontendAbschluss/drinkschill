@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 
 
+class CocktailSearch extends Component { 
+
 componentDidMount() {
     fetch("https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita")
       .then(res => res.json())
@@ -22,3 +24,5 @@ componentDidMount() {
       .then(res => res.json())
       .then(data => this.setState({ data }));
   };
+
+}
