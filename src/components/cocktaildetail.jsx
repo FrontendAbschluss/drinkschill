@@ -2,6 +2,7 @@ import React from 'react';
 import './cocktaildetail.css';
 import { Link } from "react-router-dom";
 
+
 const CocktailDetail = ({ cocktail }) => {
     const {
       description,
@@ -29,3 +30,6 @@ const CocktailDetail = ({ cocktail }) => {
         </div>
     
     );
+};
+
+export default CocktailDetail;
