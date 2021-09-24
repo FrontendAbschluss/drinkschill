@@ -36,7 +36,7 @@ class App extends Component {
           <Route path="/" exact component={Home} />
           <Route path="/category/:ingredient" component={CategoryResults} />
           <Route path="/cocktail-detail/:id" component={CocktailDetail} />
-          <Route path="/search-results" component={SearchResults} />
+          <Route path="/search-results/:search" component={SearchResults} />
           <Route path="/add-drink" component={AddDrink} />
         </Switch>
         <Footer />
