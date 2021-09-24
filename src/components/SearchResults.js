@@ -5,13 +5,13 @@ import SearchForm from './SearchForm';
 import Header from './components/Header';
 import Drink from "./Drink";
 
-
+/*
 function Search() {
     const searchHeader = "Was möchtest du trinken?";
     const [error, setError] = useState(null);
     const[cocktail, ]
 }
-
+*/
 
 // Alkoholisches Getränk suchen
 useEffect(() => {
