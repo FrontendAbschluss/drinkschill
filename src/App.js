@@ -19,8 +19,8 @@ import CategoryResults from './components/CategoryResults';
 import Test from './components/Test';
 
 // Suche Imports
-import CategoryResults from './components/SearchForm';
-import CategoryResults from './components/SearchInput';
+import CategoryResults1 from './components/SearchForm';
+import CategoryResults2 from './components/SearchInput';
 
 class App extends Component {
   constructor(props) {
