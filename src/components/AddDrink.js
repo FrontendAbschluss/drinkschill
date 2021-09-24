@@ -1,4 +1,3 @@
-import './AddDrink.css'
 import image1 from '../img/add-drink1.png'
 import image2 from '../img/add-drink2.png'
 import image3 from '../img/add-drink3.png'
