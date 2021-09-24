@@ -2,6 +2,10 @@
     display: block;
 }
 
+img {
+    text-align: left;
+}
+
 #cocktail-detail {
     background-color: lightskyblue;
     text-align: center;
