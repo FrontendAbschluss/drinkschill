@@ -18,16 +18,20 @@ class CocktailDetail extends Component {
   render() {
     console.log('details:', this.state.details)
     return (
-      <div>
-        <img src={this.state.details.strDrinkThumb} />
-        <h2>
-          {this.state.details.strDrink}
-        </h2>
-        <h3>Zutaten</h3>
-        {/* durch ingredients mappen */}
-        <p>
-          {this.state.details.strInstructions}
-        </p>
+      <div className="details">
+          <figure>
+            <img src={this.state.details.strDrinkThumb} />
+          </figure>
+          <article>
+            <h2>
+              {this.state.details.strDrink}
+            </h2>
+            <h3>Zutaten</h3>
+            {/* durch ingredients mappen */}
+            <p>
+              {this.state.details.strInstructions}
+            </p>
+          </article>
       </div>
     );
   }
