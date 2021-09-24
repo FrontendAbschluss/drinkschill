@@ -1,0 +1,20 @@
+.footer {
+  background-color: #262b46;
+  padding-left: 5%;
+  color: #fff;
+  padding-bottom: 10vh;
+}
+
+.footer h2 {
+  font-size: 1.5rem;
+  margin-top: 0;
+  padding: 10vh 0 3vh 0;
+  font-family: Playfair Display;
+}
+
+.footer p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  line-height: 1rem;
+  padding-right: 10%;
+}

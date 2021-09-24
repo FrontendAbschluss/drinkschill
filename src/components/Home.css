@@ -1,0 +1,7 @@
+.start {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.Gin {
+  background-color: #6fc3df;
+}

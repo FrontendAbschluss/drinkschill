@@ -16,6 +16,7 @@ import AddDrink from "./components/AddDrink";
 import Header from './components/Header';
 import Footer from './components/Footer';
 import CategoryResults from './components/CategoryResults';
+import Test from './components/Test';
 
 class App extends Component {
   constructor(props) {
@@ -31,8 +32,8 @@ class App extends Component {
         <Header />
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/cocktail-detail" component={CocktailDetail} />
-          <Route path="/category-results" component={CategoryResults} />
+          <Route path="/category/:ingredient" component={CategoryResults} />
+          <Route path="/cocktail-detail/:id" component={CocktailDetail} />
           <Route path="/search-results" component={SearchResults} />
           <Route path="/add-drink" component={AddDrink} />
         </Switch>
