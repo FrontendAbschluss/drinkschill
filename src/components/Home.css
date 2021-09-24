@@ -1,7 +1,29 @@
 .start {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  color: #fff;
+  padding: 0;
+}
+.start div {
+  padding: 5vh 0 5vh 5%;
+  font-family: Playfair Display;
+  font-size: 1.2em;
 }
 .Gin {
   background-color: #6fc3df;
+}
+.Vodka {
+  background-color: #8d82c4;
+}
+.Rum {
+  background-color: #ec8d81;
+}
+.Scotch {
+  background-color: #e7b788;
+}
+.A_frei {
+  background-color: #8ea9e8;
+}
+.Random {
+  background-color: #87c5a4;
 }

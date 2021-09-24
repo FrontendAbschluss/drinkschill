@@ -6,13 +6,24 @@ import './Home.css'
 const Home = () => {
   return (
     <div className="start">
-      
-      <Category ingredient={'Gin'}>Gin</Category>
-      <Category ingredient={'Vodka'}>Wodka</Category>
-      <Category ingredient={'Rum'}>Rum</Category>
-      <Category ingredient={'Scotch'}>Scotch</Category>
-      <Category ingredient={'Non_Alcoholic'}>Alkoholfrei</Category>
-      <Category ingredient={'Random'}>Zufall</Category>
+        <div className="Gin">
+          <Category ingredient={'Gin'}>Gin</Category>
+        </div>
+        <div className="Vodka">
+        <Category ingredient={'Vodka'}>Wodka</Category>
+        </div>
+        <div className="Rum">
+        <Category ingredient={'Rum'}>Rum</Category>
+        </div>
+        <div className="Scotch">
+        <Category ingredient={'Scotch'}>Scotch</Category>
+        </div>
+        <div className="A_frei">
+        <Category ingredient={'Non_Alcoholic'}>Alkoholfrei</Category>
+        </div>
+        <div className="Random">
+        <Category ingredient={'Random'}>Zufall</Category>
+        </div>
     </div>
   )
 }

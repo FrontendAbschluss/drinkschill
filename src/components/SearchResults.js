@@ -9,7 +9,7 @@
 
 // export default SearchResults;
 
-// class CocktailSearch extends Component { 
+// class CocktailSearch extends Component {
 
 //     componentDidMount() {
 //         fetch("https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita")
