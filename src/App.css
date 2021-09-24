@@ -11,3 +11,8 @@ h2,
 h3 {
   font-family: 'Playfair Display', serif;
 }
+
+a {
+  color: #fff;
+  text-decoration: none;
+}

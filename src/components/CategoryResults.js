@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Drink from "./Drink";
+import './CategoryResults.css';
 
 class CategoryResults extends Component {
     constructor(props) {
@@ -15,7 +16,7 @@ class CategoryResults extends Component {
     }
     render() {
         return (
-            <div>
+            <div className={'category-results-container'}>
                 {this.state.drinks.map((e, i) => <Drink key={e.idDrink} id={e.idDrink} name={e.strDrink} img={e.strDrinkThumb} />)}
             </div>
         );
