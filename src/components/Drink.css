@@ -1,0 +1,17 @@
+.drink-container {
+    width: 20%;
+    background-color: #6FC3DF;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+}
+.drink-image {
+    width: 50%;
+}
+.drink-name {
+    font-family: Montserrat;
+    font-weight: 700;
+    max-width: 50%;
+    transform: rotate(-90deg);
+}

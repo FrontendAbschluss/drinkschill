@@ -1,13 +1,13 @@
 import { Link } from 'react-router-dom';
 import React from 'react';
+import './Drink.css';
 
 const Drink = (props) => {
     return (
         <Link to={`/cocktail-detail/${props.id}`}>
-            <div>
-                <h1>{props.name}</h1>
-                <p>{props.id}</p>
-                <img src={props.img} alt={props.name} />
+            <div className={'drink-container'}>
+                <img src={props.img} alt={props.name} className={'drink-image'} />
+                <h2 className={'drink-name'}>{props.name}</h2>
             </div>
         </Link>
     );
