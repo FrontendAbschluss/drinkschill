@@ -8,11 +8,9 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import CocktailDetail from './components/CocktailDetail'
 import Home from './components/Home'
 import SearchResults from './components/SearchResults'
-import AddDrink from './components/AddDrink'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import CategoryResults from './components/CategoryResults'
-import Test from './components/Test'
 
 // Suche Imports
 
@@ -27,7 +25,7 @@ class App extends Component {
     super(props)
     this.state = {}
   }
-  componentDidMount() {}
+  componentDidMount() { }
   render() {
     return (
       <Router>
@@ -37,7 +35,6 @@ class App extends Component {
           <Route path="/category/:ingredient" component={CategoryResults} />
           <Route path="/cocktail-detail/:id" component={CocktailDetail} />
           <Route path="/search-results/:search" component={SearchResults} />
-          <Route path="/add-drink" component={AddDrink} />
         </Switch>
         <Footer />
       </Router>
