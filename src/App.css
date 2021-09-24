@@ -8,3 +8,7 @@ body { /* Standards */
 h1, h2, h3 { 
     font-family: 'Playfair Display', serif;
 }
+a {
+    color: #fff;
+    text-decoration: none;
+}
