@@ -1,35 +1,29 @@
-import './App.css';
-import React, { Component } from 'react';
+import './App.css'
+import React, { Component } from 'react'
 
 // import logo from "logo.js";
 
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
-import CocktailDetail from "./components/CocktailDetail";
-import Home from "./components/Home";
-import SearchResults from './components/SearchResults';
-import AddDrink from "./components/AddDrink";
-import Header from './components/Header';
-import Footer from './components/Footer';
-import CategoryResults from './components/CategoryResults';
-import Test from './components/Test';
+import CocktailDetail from './components/CocktailDetail'
+import Home from './components/Home'
+import SearchResults from './components/SearchResults'
+import AddDrink from './components/AddDrink'
+import Header from './components/Header'
+import Footer from './components/Footer'
+import CategoryResults from './components/CategoryResults'
+import Test from './components/Test'
 
 // Suche Imports
-import CategoryResults1 from './components/SearchForm';
-import CategoryResults2 from './components/SearchInput';
+import CategoryResults1 from './components/SearchForm'
+import CategoryResults2 from './components/SearchInput'
 
 class App extends Component {
   constructor(props) {
-    super(props);
+    super(props)
     this.state = {}
   }
-  componentDidMount() {
-
-  }
+  componentDidMount() {}
   render() {
     return (
       <Router>
@@ -43,8 +37,8 @@ class App extends Component {
         </Switch>
         <Footer />
       </Router>
-    );
+    )
   }
 }
 
-export default App;
+export default App

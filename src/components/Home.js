@@ -6,7 +6,8 @@ import './Home.css'
 const Home = () => {
   return (
     <div className="start">
-      <Category ingredient={'Gin'} className="Gin">Gin</Category>
+      
+      <Category ingredient={'Gin'}>Gin</Category>
       <Category ingredient={'Vodka'}>Wodka</Category>
       <Category ingredient={'Rum'}>Rum</Category>
       <Category ingredient={'Scotch'}>Scotch</Category>
