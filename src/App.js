@@ -18,6 +18,10 @@ import Footer from './components/Footer';
 import CategoryResults from './components/CategoryResults';
 import Test from './components/Test';
 
+// Suche Imports
+import CategoryResults from './components/SearchForm';
+import CategoryResults from './components/SearchInput';
+
 class App extends Component {
   constructor(props) {
     super(props);
