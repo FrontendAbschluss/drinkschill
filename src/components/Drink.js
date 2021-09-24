@@ -1,11 +1,15 @@
 import { Link } from 'react-router-dom';
+import React from 'react';
 
-const Drink = () => {
+const Drink = (props) => {
     return (
-        <div>
-            <h1>Drink</h1>
-            onClick -> open CocktailDetail Component as PopUp
-        </div>
+        <Link to={`/cocktail-detail/${props.id}`}>
+            <div>
+                <h1>{props.name}</h1>
+                <p>{props.id}</p>
+                <img src={props.img} alt={props.name} />
+            </div>
+        </Link>
     );
 }
 

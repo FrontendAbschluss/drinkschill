@@ -5,12 +5,12 @@ import Category from './Category'
 const Home = () => {
   return (
     <div>
-      <Category ingredient={'gin'}>Gin</Category>
-      <Category ingredient={'wodka'}>Wodka</Category>
-      <Category ingredient={'rum'}>Rum</Category>
-      <Category ingredient={'scotch'}>Scotch</Category>
-      <Category ingredient={'alcoholfree'}>Alkoholfrei</Category>
-      <Category ingredient={'random'}>Zufall</Category>
+      <Category ingredient={'Gin'}>Gin</Category>
+      <Category ingredient={'Vodka'}>Wodka</Category>
+      <Category ingredient={'Rum'}>Rum</Category>
+      <Category ingredient={'Scotch'}>Scotch</Category>
+      <Category ingredient={'Non_Alcoholic'}>Alkoholfrei</Category>
+      <Category ingredient={'Random'}>Zufall</Category>
     </div>
   )
 }
