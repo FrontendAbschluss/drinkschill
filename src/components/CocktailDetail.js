@@ -19,10 +19,10 @@ class CocktailDetail extends Component {
     console.log('details:', this.state.details)
     return (
       <div className="details">
-          <figure>
+          <figure className="leftimage">
             <img src={this.state.details.strDrinkThumb} />
           </figure>
-          <article>
+          <article className="rightarticle">
             <h2>
               {this.state.details.strDrink}
             </h2>

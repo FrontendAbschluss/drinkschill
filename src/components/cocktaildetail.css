@@ -1,9 +1,9 @@
 .details {
-    display: block;
+    display: flex;
 }
 
-img {
-    text-align: left;
+.leftimage {
+    position: relative;
 }
 
 #cocktail-detail {
