@@ -16,8 +16,8 @@ import Test from './components/Test'
 
 // Suche Imports
 
-import CategoryResults1 from './components/SearchForm'
-import CategoryResults2 from './components/SearchInput'
+// import CategoryResults1 from './components/SearchForm'
+// import CategoryResults2 from './components/SearchInput'
 
 // import CategoryResults1 from './components/SearchForm';
 // import CategoryResults2 from './components/SearchInput';
