@@ -1,22 +1,32 @@
 .details {
-    display: block;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5vh auto 0 !important;
+  max-width: 90vw;
 }
 
-img {
-    text-align: left;
+.detail_ingredient_item {
+  display: block;
+}
+
+.detail_image {
+  height: 50vh;
+}
+
+.right_article {
+  max-width: 50%;
 }
 
 #cocktail-detail {
-    background-color: lightskyblue;
-    text-align: center;
-    font-size: 1.5em;
-    font-family: 'Times New Roman', Times, serif;
-    padding: 1em;
+  background-color: lightskyblue;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 1em;
 }
 
 #cocktail-detail img {
-    width: 25%;
-    height: 25%;
-    box-shadow: 10px 5px 5px black;
-
+  width: 25%;
+  height: 25%;
+  box-shadow: 10px 5px 5px black;
 }
