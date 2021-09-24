@@ -49,6 +49,7 @@ const searchCocktail = (cocktailToSearch) => {
 }
 
 
+function ErrorHandling(){
 
 if (error) {
     return <div>Error: {error.message}</div>;
@@ -62,6 +63,8 @@ if (error) {
             <SearchInput cocktailSearched={cocktail} />
         </div>
     );
+}
+
 }
 
 
