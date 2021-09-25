@@ -38,6 +38,7 @@ input {
   height: 2rem;
   box-sizing: border-box;
   margin: 5vh 2% 3vh 0;
+  border-bottom: 2px solid #999;
 }
 img {
   display: block;

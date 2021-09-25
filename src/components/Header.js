@@ -24,16 +24,24 @@ class Header extends React.Component {
 
         <form>
           <input
+            placeholder="Suche..."
+            id="search"
             type="text"
             value={this.state.search}
             onChange={this.handleSearch}
           ></input>
+          <button className="SearchButton">Suchen
+            {/* Searchfield Button onClick value{' '} */}
+              <Link to={`/search-results/${this.state.search}`}>
+            {/* to search results */}
+              </Link>
+          </button>
         </form>
-        {/* Searchfield Button onClick value{' '} */}
-        <Link to={`/search-results/${this.state.search}`}>
-          {/* to search results */}
-        </Link>
+        
+
+
         <img src="/Arrows.png" alt="Arrow" />
+        
       </div>
     )
   }
