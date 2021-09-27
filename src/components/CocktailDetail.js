@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-
 import './CocktailDetail.css'
 import { Link } from 'react-router-dom'
 
@@ -18,8 +17,7 @@ class CocktailDetail extends Component {
       .then(data => this.setState({ details: data.drinks[0] }))
   }
   render() {
-    console.log('details:', this.state.details)
-    const imgurl = {background: `url(${this.state.details.strDrinkThumb}) center/cover no-repeat`, width: "450px", height: "450px", margin: "0"}
+    const imgurl = {background: `url(${this.state.details.strDrinkThumb}) center/cover no-repeat`, width: "450px", height: "450px", margin: "0"};
     return (
       <div>
       <h2 className="detail_title">{this.state.details.strDrink}</h2>
