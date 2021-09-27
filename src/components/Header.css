@@ -58,6 +58,10 @@
   color: #fff;
   transition: all 2s ease;
 }
+
+
+
+
 @media only screen and (max-width: 576px) {
   .HeaderContainer {
     height: 65vh;

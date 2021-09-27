@@ -10,16 +10,18 @@ class Header extends React.Component {
     this.setState({ search: e.target.value })
   }
 
-  /*
-  handleScrollTo(event) {
-    const siteend = ReactDOM.findDOMNode(this.toEndOfSite)
-    siteend.scrollIntoView({ behavior: 'smooth' })
+  
+  handleScrollTo = () => {
+    window.scrollTo(0,document.body.scrollHeight);
+  
   }
-  */
+  
+  
 
 
 
   render() {
+    // console.log(document.body)
     return (
       <div className="HeaderContainer">
         <ul className="Navbar">
@@ -44,7 +46,9 @@ class Header extends React.Component {
         </form>
 
 
-        <a className="toEndOfSite" onclick="window.scrollTo" href="Home"><img className="arrow" src="/Arrows.png" alt="Arrow"/></a>
+        <a className={"window"} onClick={this.handleScrollTo} ><img className={"arrow"} src={"/Arrows.png"} alt={"Arrow"} /></a>
+        
+
       </div>
 
     )

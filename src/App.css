@@ -5,6 +5,7 @@ body {
   background-color: #262b46;
   color: #fff;
   font-family: 'Montserrat', sans-serif;
+  
 }
 h1,
 h2,
@@ -15,5 +16,9 @@ h3 {
 a {
   color: #fff;
   text-decoration: none;
+}
+
+* {
+  scroll-behavior: smooth;
 }
 
