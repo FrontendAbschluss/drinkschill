@@ -12,20 +12,39 @@
 .Gin {
   background-color: #6fc3df;
 }
+.Gin:hover {
+  transform: scale(1.1);
+}
 .Vodka {
   background-color: #8d82c4;
+}
+.Vodka:hover {
+  transform: scale(1.1);
 }
 .Rum {
   background-color: #ec8d81;
 }
+.Rum:hover {
+  transform: scale(1.1);
+}
+
 .Scotch {
   background-color: #e7b788;
+}
+.Scotch:hover {
+  transform: scale(1.1);
 }
 .A_frei {
   background-color: #8ea9e8;
 }
+.A_frei:hover {
+  transform: scale(1.1);
+}
 .Random {
   background-color: #87c5a4;
+}
+.Random:hover {
+  transform: scale(1.1);
 }
 @media only screen and (max-width: 576px) {
   .start {
