@@ -32,7 +32,7 @@ class Header extends React.Component {
         </form>
         {/* Searchfield Button onClick value{' '} */}
         <Link to={`/search-results/${this.state.search}`}>
-          {/* to search results */}
+          to search results
         </Link>
         <img className="arrow" src="/Arrows.png" alt="Arrow" />
       </div>
