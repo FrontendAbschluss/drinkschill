@@ -31,9 +31,11 @@
 }
 .text_Input {
   border-radius: 6px;
-  height: 2rem;
+  height: 2.7rem;
   box-sizing: border-box;
   margin: 5vh 2% 3vh 0;
+  font-size: 1rem;
+  text-align: center;
 }
 .arrow {
   display: block;
@@ -41,3 +43,10 @@
   padding: 10vh 0 3vh 0;
 }
 
+.search-button {
+  border-radius: 6px;
+  background-color: #6FC3DF;
+  color: #000;
+  padding: 10px;
+  vertical-align: middle;
+}
