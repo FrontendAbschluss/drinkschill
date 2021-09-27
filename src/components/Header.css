@@ -1,10 +1,7 @@
-body {
-  color: #fff;
-}
 .HeaderContainer {
   padding: 0 5%;
 }
-ul {
+.Navbar {
   text-transform: uppercase;
   list-style: none;
   display: flex;
@@ -14,32 +11,31 @@ ul {
   margin: 0;
   font-size: 0.81rem;
 }
-ul li:nth-of-type(1) {
+.logo {
   font-weight: bold;
   letter-spacing: 3px;
   font-family: Playfair Display;
 }
-ul li:nth-of-type(2) {
+.menu {
   font-family: 'Montserrat', sans-serif;
 }
-h1 {
+.main_Text {
   font-weight: bold;
   font-size: 3rem;
   margin: 14vh 0 0 0;
 }
-p {
+.sub_Text {
   font-family: 'Montserrat', sans-serif;
   font-size: 0.875rem;
-  text-transform: uppercase;
   margin: 1vh 0 3vh 0;
 }
-input {
+.text_Input {
   border-radius: 6px;
   height: 2rem;
   box-sizing: border-box;
   margin: 5vh 2% 3vh 0;
 }
-img {
+.arrow {
   display: block;
   margin: 0 auto;
   padding: 10vh 0 3vh 0;

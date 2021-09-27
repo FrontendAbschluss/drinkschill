@@ -12,18 +12,19 @@ class Header extends React.Component {
   render() {
     return (
       <div className="HeaderContainer">
-        <ul>
-          <li>
+        <ul className="Navbar">
+          <li className="logo">
             <Link to={'/'}>DRINKS & CHILL</Link>
           </li>
 
-          <li> MENÜ </li>
+          <li className="menu"> MENÜ </li>
         </ul>
-        <h1>Cocktails & Getränke!</h1>
-        <p>Herzlich Willkommen in der Welt der Cocktails und Getränke!</p>
+        <h1 className="main_Text">Cocktails & Getränke!</h1>
+        <p className="sub_Text">Herzlich Willkommen in der Welt der Cocktails und Getränke!</p>
 
         <form>
           <input
+            className="text_Input"
             type="text"
             value={this.state.search}
             onChange={this.handleSearch}
@@ -33,7 +34,7 @@ class Header extends React.Component {
         <Link to={`/search-results/${this.state.search}`}>
           {/* to search results */}
         </Link>
-        <img src="/Arrows.png" alt="Arrow" />
+        <img className="arrow" src="/Arrows.png" alt="Arrow" />
       </div>
     )
   }
