@@ -34,7 +34,7 @@ class Header extends React.Component {
         </form>
 
 
-        <a className="toEndOfSite" onclick="window.scrollTo(0,document.body.scrollHeight);" href="Footer.js#seitenende"><img className="arrow" src="/Arrows.png" alt="Arrow"/></a>
+        <a className="toEndOfSite" onclick="window.scrollTo(100,document.body.scrollDown);" href=""><img className="arrow" src="/Arrows.png" alt="Arrow"/></a>
       </div>
 
     )
