@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import './CocktailDetail.css'
 
 class CocktailDetail extends Component {
   constructor(props) {
