@@ -11,10 +11,10 @@ class Header extends React.Component {
   }
 
 
-  handleScrollTo = () => {
-    window.scrollTo(0, document.body.scrollHeight);
+  // handleScrollTo = () => {
+  //   window.scrollTo(0, document.body.scrollHeight);
 
-  }
+  // }
 
 
 
@@ -46,7 +46,7 @@ class Header extends React.Component {
         </form>
 
 
-        <a className={"window"} onClick={this.handleScrollTo} href={'#'}><img className={"arrow"} src={"/Arrows.png"} alt={"Arrow"} /></a>
+        {/* <a className={"window"} onClick={this.handleScrollTo} href={'#'}><img className={"arrow"} src={"/Arrows.png"} alt={"Arrow"} /></a> */}
 
 
       </div>
