@@ -1,10 +1,15 @@
+.cocktails {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
 .drink-container {
-  width: 50%;
+  width: 100%;
   background-color: #6fc3df;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   text-align: center;
-  padding: 4vh 0 4vh 5%;
+  padding: vh 0 4vh 0%;
 }
 .drink-image {
   width: 100%;
@@ -13,7 +18,7 @@
 }
 .drink-name {
   font-family: Montserrat;
-  font-weight: 500;
+  font-weight: 300;
   /* max-width: 50%; */
   transform: rotate(-90deg);
   margin-left: 55%;
