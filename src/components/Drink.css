@@ -31,8 +31,10 @@
 .style6 {
   background-color: #87c5a4;
 }
-.left, .right {
-  display:flex;
+.left,
+.right {
+  /* display: flex; */
+  position: relative;
 }
 .left img {
   grid-column: 1 / 2;
@@ -45,6 +47,8 @@
 }
 .right h2 {
   grid-column: 1 / 2;
+  position: absolute;
+  top: 40%;
 }
 
 .drink-container:hover {
