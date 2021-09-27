@@ -27,7 +27,7 @@ class CategoryResults extends Component {
     render() {
         return (
             <div className={'category-results-container'}>
-                {this.state.drinks.map((e, i) => <div className={`style${Math.floor((i % 6) + 1)}`}><Drink key={e.idDrink} id={e.idDrink} name={e.strDrink} img={e.strDrinkThumb} /></div>)}
+                {this.state.drinks.map((e, i) => <div className={`style${Math.floor((i % 6) + 1)} ${i % 2 == 0 ? 'left' : 'right'}`}><Drink key={e.idDrink} id={e.idDrink} name={e.strDrink} img={e.strDrinkThumb} /></div>)}
             </div>
         );
     }

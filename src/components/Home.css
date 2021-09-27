@@ -27,6 +27,13 @@
 .Random {
   background-color: #87c5a4;
 }
+.Gin, .Vodka, .Rum, .Scotch, .A_frei, .Random {
+  transition: 0.1s;
+}
+.Gin:hover, .Vodka:hover, .Rum:hover, .Scotch:hover, .A_frei:hover, .Random:hover {
+  transform: scale(1.1);
+}
+
 @media only screen and (max-width: 576px) {
   .start {
     display: grid;
