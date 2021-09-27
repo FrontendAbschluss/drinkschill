@@ -30,7 +30,6 @@ class Header extends React.Component {
             onChange={this.handleSearch}
           ></input>
         </form>
-        {/* Searchfield Button onClick value{' '} */}
         <Link to={`/search-results/${this.state.search}`}>
           to search results
         </Link>
