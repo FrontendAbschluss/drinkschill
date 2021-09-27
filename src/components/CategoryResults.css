@@ -22,3 +22,9 @@
 .style6 {
     background-color: #87C5A4;
 }
+
+@media only screen and (max-width: 576px) {
+    .category-results-container {
+        grid-template-columns: repeat(1, 1fr);
+      }
+  }
