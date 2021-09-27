@@ -1,26 +1,6 @@
 .category-results-container {
-  /* padding-top: 100px; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-}
-
-.style1 {
-  background-color: #6fc3df;
-}
-.style2 {
-  background-color: #8d82c4;
-}
-.style3 {
-  background-color: #ec8d81;
-}
-.style4 {
-  background-color: #e7b788;
-}
-.style5 {
-  background-color: #8ea9e8;
-}
-.style6 {
-  background-color: #87c5a4;
 }
 
 @media only screen and (max-width: 576px) {
