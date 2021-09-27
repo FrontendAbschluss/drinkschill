@@ -13,7 +13,9 @@ const Footer = () => {
         wecken und unterbewusst auch den Geschmack beeinflussen.
       </p>
     </div>
+
   )
+
 }
 
 export default Footer

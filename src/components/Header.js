@@ -9,7 +9,19 @@ class Header extends React.Component {
   handleSearch = e => {
     this.setState({ search: e.target.value })
   }
+
+  
+  handleScrollTo = () => {
+    window.scrollTo(0,document.body.scrollHeight);
+  
+  }
+  
+  
+
+
+
   render() {
+    // console.log(document.body)
     return (
       <div className="HeaderContainer">
         <ul className="Navbar">
@@ -32,10 +44,16 @@ class Header extends React.Component {
           ></input>
           <Link to={`/search-results/${this.state.search}`} className={'search-button'}>Search</Link>
         </form>
-        <img className="arrow" src="/Arrows.png" alt="Arrow" />
+
+
+        <a className={"window"} onClick={this.handleScrollTo} ><img className={"arrow"} src={"/Arrows.png"} alt={"Arrow"} /></a>
+        
+
       </div>
+
     )
+
   }
-}
+}  
 
 export default Header
