@@ -49,6 +49,7 @@
   grid-column: 1 / 2;
   position: absolute;
   top: 40%;
+  right: 70%;
 }
 
 .drink-container:hover {
