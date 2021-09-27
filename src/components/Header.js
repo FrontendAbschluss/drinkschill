@@ -32,10 +32,14 @@ class Header extends React.Component {
           ></input>
           <Link to={`/search-results/${this.state.search}`} className={'search-button'}>Search</Link>
         </form>
-        <img className="arrow" src="/Arrows.png" alt="Arrow" />
+
+
+        <a className="toEndOfSite" onclick="window.scrollTo(0,document.body.scrollHeight);" href="Footer.js#seitenende"><img className="arrow" src="/Arrows.png" alt="Arrow"/></a>
       </div>
+
     )
+
   }
-}
+}  
 
 export default Header
