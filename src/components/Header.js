@@ -28,11 +28,10 @@ class Header extends React.Component {
             type="text"
             value={this.state.search}
             onChange={this.handleSearch}
+            placeholder={'type something'}
           ></input>
+          <Link to={`/search-results/${this.state.search}`} className={'search-button'}>Search</Link>
         </form>
-        <Link to={`/search-results/${this.state.search}`}>
-          to search results
-        </Link>
         <img className="arrow" src="/Arrows.png" alt="Arrow" />
       </div>
     )
