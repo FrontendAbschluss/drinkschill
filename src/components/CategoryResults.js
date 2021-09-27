@@ -27,39 +27,12 @@ class CategoryResults extends Component {
     render() {
         return (
             <div className={'category-results-container'}>
-                {this.state.drinks.map((e, i) => <div className={`style${Math.floor((i % 6) + 1)} ${i % 2 == 0 ? 'left' : 'right'}`}><Drink key={e.idDrink} id={e.idDrink} name={e.strDrink} img={e.strDrinkThumb} /></div>)}
+                {this.state.drinks.map((e, i) => <div className={`style${Math.floor((i % 6) + 1)} ${i % 2 === 0 ? 'left' : 'right'}`}><Drink key={e.idDrink} id={e.idDrink} name={e.strDrink} img={e.strDrinkThumb} /></div>)}
             </div>
         );
     }
+
 }
 
+
 export default CategoryResults;
-
-// Code aus Skript für Zufallsfarbe und links/rechts
-// {
-//     data.map((e, i) => <div className={`
-// 			style${Math.floor((i % 6) + 1)}
-// 			${i % 2 == 0 ? 'left' : 'right'}
-// 			`}
-//         key={e.id}
-//     >
-//         {e.first_name}
-//     </div>)
-// }
-
-
-
-// const CategoryResults = (props) => {
-//     return (
-//         <div>
-//             <h1>CategoryResults</h1>
-//             API-Call -> map -> Drink Components
-//             <Drink></Drink>
-//             <Drink></Drink>
-//             <Drink></Drink>
-//             <Drink></Drink>
-//         </div>
-//     );
-// }
-
-// export default CategoryResults;

@@ -10,13 +10,13 @@ class Header extends React.Component {
     this.setState({ search: e.target.value })
   }
 
-  
+
   handleScrollTo = () => {
-    window.scrollTo(0,document.body.scrollHeight);
-  
+    window.scrollTo(0, document.body.scrollHeight);
+
   }
-  
-  
+
+
 
 
 
@@ -46,14 +46,14 @@ class Header extends React.Component {
         </form>
 
 
-        <a className={"window"} onClick={this.handleScrollTo} ><img className={"arrow"} src={"/Arrows.png"} alt={"Arrow"} /></a>
-        
+        <a className={"window"} onClick={this.handleScrollTo} href={'#'}><img className={"arrow"} src={"/Arrows.png"} alt={"Arrow"} /></a>
+
 
       </div>
 
     )
 
   }
-}  
+}
 
 export default Header
