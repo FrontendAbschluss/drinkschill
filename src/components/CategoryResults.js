@@ -10,9 +10,18 @@ class CategoryResults extends Component {
         }
     }
     componentDidMount() {
-        fetch(`https://www.thecocktaildb.com/api/json/v1/1/filter.php?i=${this.props.match.params.ingredient}`)
+        if (this.props.match.params.ingredient === 'Random') {
+            fetch(`https://www.thecocktaildb.com/api/json/v1/1/random.php`)
             .then(res => res.json())
             .then(data => this.setState({ drinks: data.drinks }));
+        } else if (this.props.match.params.ingredient === 'Non_Alcoholic') {
+            fetch(`https://www.thecocktaildb.com/api/json/v1/1/filter.php?a=Non_Alcoholic`)
+            .then(res => res.json())
+            .then(data => this.setState({ drinks: data.drinks }));
+        } else  {
+        fetch(`https://www.thecocktaildb.com/api/json/v1/1/filter.php?i=${this.props.match.params.ingredient}`)
+            .then(res => res.json())
+            .then(data => this.setState({ drinks: data.drinks }));}
     }
     render() {
         return (

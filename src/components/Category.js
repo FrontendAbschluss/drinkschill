@@ -5,7 +5,7 @@ const Category = (props) => {
         <Link to={`/category/${props.ingredient}`}>
             <div>
                 <h2>
-                    {props.ingredient}
+                    {props.name}
                 </h2>
             </div >
         </Link>

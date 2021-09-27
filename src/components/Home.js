@@ -7,22 +7,22 @@ const Home = () => {
   return (
     <div className="start">
         <div className="Gin">
-          <Category ingredient={'Gin'}>Gin</Category>
+          <Category ingredient={'Gin'} name={"Gin"}>Gin</Category>
         </div>
         <div className="Vodka">
-        <Category ingredient={'Vodka'}>Wodka</Category>
+        <Category ingredient={'Vodka'} name={"Wodka"}>Wodka</Category>
         </div>
         <div className="Rum">
-        <Category ingredient={'Rum'}>Rum</Category>
+        <Category ingredient={'Rum'} name={"Rum"}>Rum</Category>
         </div>
         <div className="Scotch">
-        <Category ingredient={'Scotch'}>Scotch</Category>
+        <Category ingredient={'Scotch'} name={"Scotch"}>Scotch</Category>
         </div>
         <div className="A_frei">
-        <Category ingredient={'Non_Alcoholic'}>Alkoholfrei</Category>
+        <Category ingredient={'Non_Alcoholic'} name={"Alkoholfrei"}>Alkoholfrei</Category>
         </div>
         <div className="Random">
-        <Category ingredient={'Random'}>Zufall</Category>
+        <Category ingredient={'Random'} name={"Zufall"}>Zufall</Category>
         </div>
     </div>
   )
