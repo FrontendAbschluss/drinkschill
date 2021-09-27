@@ -20,6 +20,6 @@ a {
   .start {
     display: grid;
     grid-template-columns: 1fr;
-    background-color: yellow;
+   
   }
 }
