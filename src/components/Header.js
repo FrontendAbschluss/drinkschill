@@ -10,15 +10,9 @@ class Header extends React.Component {
     this.setState({ search: e.target.value })
   }
 
-
-  // handleScrollTo = () => {
-  //   window.scrollTo(0, document.body.scrollHeight);
-
-  // }
-
-
-
-
+  handleScrollTo = () => {
+    window.scrollTo(0, document.body.scrollHeight);
+  }
 
   render() {
     // console.log(document.body)
@@ -44,9 +38,9 @@ class Header extends React.Component {
           ></input>
           <Link to={`/search-results/${this.state.search}`} className={'search-button'}>Search</Link>
         </form>
-
-
-        {/* <a className={"window"} onClick={this.handleScrollTo} href={'#'}><img className={"arrow"} src={"/Arrows.png"} alt={"Arrow"} /></a> */}
+        <div className={"arrow-container"}>
+          <button className={'arrow'} onClick={this.handleScrollTo}><img src={"/Arrows.png"} alt={"Arrow"} /></button>
+        </div>
 
 
       </div>

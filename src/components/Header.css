@@ -37,12 +37,18 @@
   font-size: 1rem;
   text-align: center;
 }
+.arrow-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 .arrow {
-  display: block;
-  margin: 0 auto;
-  padding: 10vh 0 3vh 0;
+  background-color: #262b46;
+  border: none;
+  padding-bottom: 50px;
 }
 .arrow:hover {
+  cursor: pointer;
   transition: transform 3s ease-in-out;
   transform: rotateY(-360deg);
 }
