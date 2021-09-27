@@ -5,20 +5,26 @@
 }
 
 .style1 {
-    background-color: #6FC3DF;
+  background-color: #6fc3df;
 }
 .style2 {
-    background-color: #8D82C4;
+  background-color: #8d82c4;
 }
 .style3 {
-    background-color: #EC8D81;
+  background-color: #ec8d81;
 }
 .style4 {
-    background-color: #E7B788;
+  background-color: #e7b788;
 }
 .style5 {
-    background-color: #8EA9E8;
+  background-color: #8ea9e8;
 }
 .style6 {
-    background-color: #87C5A4;
+  background-color: #87c5a4;
+}
+
+@media only screen and (max-width: 576px) {
+  .category-results-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
